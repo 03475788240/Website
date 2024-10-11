@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+  
+  *{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+     font-family: "overpass";
+}
+
+.overline{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    background-color: #0000FF;
+    color: #F7FFFF;
+    font-family: "overpass";
+    font-weight: 400;
+    gap: 20px;
+}
+
+
+
+
+
+
+.hero-section{
+    justify-content: center;
+    align-items: center;
+
+}   
+.hero-section .content-box h4{
+    margin-right: -50px;
+
+}
+.hero-section .content-box h1{
+    color: #212529;
+    font-family: "Overpass", Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2em;
+    width: 800px;
+    margin-right: -50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7FFFF;
+    height: 70px;
+}
+
+.logo{
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #939AB1;
+    font-family: "overpass";
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    color: #0000FF;
+    scale: 0.1;
+    cursor: pointer;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 81px;
+    gap: 20px;
+}
+
+.content-box button {
+    background-color: #0000FF;
+    border: none;
+    padding: 17px 35px 13px 35px;
+    border-radius: 5px;
+    font-family: "overpass";
+    color: #0000FF;
+    font-size: 15px;
+    color: #F7FFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content-box button:hover {
+    cursor: pointer;
+    scale: 1.1;
+    color: #F7FFFF;
+    background-color: #FA7070;
+    box-shadow: 0 0 10px skyblue;
+}
+
+.bigdiv{
+    width: 1120px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.content-box h4{
+    color: #0000FF;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "overpass";
+}
+.content-box h2{
+    color: #212529;
+    font-family: "overpass" , sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.content-box p{
+    color: #939AB1;
+    font-family: "overpass";
+    width: 650px;
+    margin-top: 20px;
+}
+
+  .big-m{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center; 
+    width: 1120px;
+    margin-top: 70px;
+}
+
+
+.child-box{
+    font-family: "overpass";
+    height: 235px;
+    transition: all .3s ease;
+     margin-left: 120px;
+    gap: 250px; 
+}
+.child-box:hover{
+    scale: 1.1;
+    box-shadow: 20px rgb(238, 236, 236);
+}
+
+.child-box h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.child-box p{
+    color: #939AB1;
+    margin-bottom: 20px;
+}
+.child-box button{
+    background-color: #fff;
+    border-color: #0000FF;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: "overpass";
+    color: #0000FF;
+    font-size: 15px;
+    fill: #0000FF;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .3s;
+    box-shadow: #212529;
+}
+
+.child-box button:hover{
+    scale: 1.1;
+    fill: #0000FF;
+    color: #fff;
+    background-color: #0000FF;
+}
+.bigdiv img{
+    margin-left: 1350px;
+    position: fixed;
+    margin-bottom: -400px;
+}
+
+.image-box img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 197px;
+    margin-top: 20px;
+ } 
+  
+
+ .services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+    margin-top: 60px;
+ }
+ .content-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+    gap: 20px;
+ }
+ .services .content-a h4{
+    color: #0000FF;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "overpass";
+    margin-right: 300px;
+ }
+ .services .content-a h3{
+    color: #212529;
+    font-family: "overpass" , sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+ }
+ .services .content-a p{
+    color: #939AB1;
+    width: 400px;
+
+ }
+ .child-services i{
+    color: #0000FF;
+    font-size: 20px;
+ }
+ .child-services{
+    justify-content: center;
+    align-items: center;
+    font-family: "overpass";
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #d6d8dffb;
+    padding: 10PX;
+    border-radius: 10PX;
+ }
+ .h{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+ }
+
+ .child-services:hover{
+    background-color: #0000FF;
+    color: #F7FFFF;
+ }
+ i:hover{
+    color: #FA7070;
+    border: none;
+ }
+ 
+
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "overpass";
+}
+ .content-m{
+    align-items: center;
+    justify-content: center;
+ }
+ .content-m h4{
+    margin-left: 190px;
+    color: #0000FF;
+    font-size: 15px;
+    font-weight: 600    ;
+ }
+ .content-m h3{
+    justify-content: center;
+    color: #212529;
+    font-size: 40px;
+    font-weight: 700;
+ }
+ .content-m h2{
+    justify-content: center;
+    color: #212529;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 90px;
+ }
+ .content-m p{
+    font-family: "overpass";
+ }
+
+
+
+.m{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-direction: row;
+    text-align: center;
+    align-items: center; 
+    margin-top: 70px;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin-right: 1000px;
+    padding-top: 40px;
+    width: 500PX;
+}
+
+
+.child-box{
+    font-family: "overpass";
+    height: 350PX;
+    transition: all .3s ease;
+    width: 350PX;
+    text-align: start;
+    padding: 400 400;
+}
+.m .child-box:hover{
+    scale: 1.1;
+    background-color: #0000FF;
+    color: #F7FFFF;
+    padding: 30px;
+}
+
+.child-box h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.child-box p{
+    color: #939AB1;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.m .child-box button{
+    border: none;
+    width: 190px;
+    height: 100px;
+    background-color: transparent;
+}
+
+.m .child-box button:hover{
+    border: none;
+}
+.develompent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "overpass";
+}
+.content-c{
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    gap: 40px;
+}
+.content-c h4{
+    margin-bottom: 15px;
+    color: #0000FF;
+    font-size: 15px;
+    font-weight: 600    ;
+ }
+ .content-c h3{
+    justify-content: center;
+    color: #212529;
+    font-size: 35px;
+    font-weight: 700;
+    width: 600px;
+    margin-bottom: 15px;
+ }
+ .content-c p{
+    font-family: "overpass";
+    color: #939AB1;
+    margin-bottom: 20px;
+    width: 520px;
+ }
+ .core i{
+    color: #0000FF;
+    font-weight: 500;
+    font-size: 27px;
+ }
+ .core h5{
+    color: #54595F;
+    margin-bottom: 10px;
+    font-family: "Overpass", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+ }
+
+.project{
+    background-color: #0000FF;
+    width: 1350px;
+    height: 200px;
+    background-image: url(https://kitpapa.net/connect/wp-content/uploads/2023/07/bg_lines.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    margin-top: 90px;
+}
+.content-am{
+    /* display: grid;
+    grid-template-columns: repeat(3.3fr); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 60px    40px;
+    align-items: center;
+}
+
+.small-box h3{
+    color: #F7FFFF;
+    font-family: "overpass";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+
+}
+.small-box h2{
+    font-family: "overpass";
+    color: #F7FFFF;
+    font-size: 17px;
+    font-weight: 600;
+}
+.small-box{
+    justify-content: center;
+    align-items: center;
+    transition: all ease 1s;
+}
+.small-box:hover{
+    scale: 1.1;
+    background-color: #0000FF;
+    padding: 20px;
+    border-radius: 10px;
+}
+.gellery{
+    font-family: "overpass";
+}
+.content-ah{
+    margin-top: 80px;
+}
+
+.content-ah h4{
+    font-family: "overpass";
+    color: #0000FF;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 558px;
+    margin-bottom: 5px;
+}
+.content-ah h2{
+    justify-content: center;
+    color: #212529;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "overpass";
+    width: 600px;
+    margin-left: 350px;
+}
+.content-k h3{
+    justify-content: center;
+    color: #212529;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "overpass";
+    width: 600px;
+    margin-left: 415px;
+    margin-bottom: 60px;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    gap: 40px;
+}
+ .images-h img{
+    display: block; 
+    margin: auto;  
+}
+.g{
+    width: 400px;
+    position: relative;
+}
+
+.content-k{
+    margin-left: 32px;
+    height: 326px;
+    width: 337px;
+    size: cover;
+    margin-bottom: 20px;
+    top: 12px;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4S;
+}
+.content-k:hover{
+    opacity: 1;
+    height: 326px;
+}
+.content-k h2{
+    color: #F7FFFF;
+    font-family: "Overpass", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.content-k h4{
+    color: #F7FFFF;
+    font-family: "overpass";
+} 
+
+.content-k i{
+    color: #F7FFFF;
+    font-size: 2em;
+}
+
+
+
+.bg{
+    width: 1327px;
+}
+.watch-vedio{
+    margin-top: 115px;
+}
+.gh{
+    margin-left: 63px;
+    margin-top: -480px;
+    
+}
+
+.gh h4{
+    font-family: "overpass";
+    color: #FA7070;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.gh h2{
+    font-family: "overpass";
+    color: #F7FFFF;
+    font-size: 50px;
+    font-weight: 700;
+    width: 534px;
+}
+
+.gh p{
+    font-family: "overpass";
+    color: #F7FFFF;
+    font-weight: 500;
+    font-family: "overpass";
+    width: 534px;
+}
+
+
+.gh button{
+    background-color: #0000FF;
+    padding: 17px 35px 13px 35px;
+    color: #F7FFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: "overpass";
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .3s;
+    margin-top: 36px;
+}
+
+.gh button:hover{
+    scale: 1.1;
+    background-color: #FA7070;
+    color: #F7FFFF;
+}
+.gh i{
+    margin-left: 822px;
+    font-size: 103px;
+    color: #0000ff;
+    background-color: #F7FFFF;
+    border-radius: 50px;
+    transition: all ease .6s;
+}
+
+.gh i:hover{
+    background-color: #0000FF;
+    color: #F7FFFF;
+}
+.last-a{
+    margin-top: 57px;
+    margin-left: 89px;
+    width: 1102px;
+    height: 100vh;
+    background-color: #0000FF;
+    background-image: url(https://kitpapa.net/connect/wp-content/uploads/2023/07/bg_lines.svg);
+}
